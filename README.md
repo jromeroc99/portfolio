@@ -10,8 +10,8 @@ Este proyecto está configurado para desplegarse automáticamente en GitHub Page
 
 1. **Actualiza la configuración en `astro.config.mjs`:**
    ```javascript
-   site: 'https://TU_USERNAME.github.io', // Tu username de GitHub
-   base: '/NOMBRE_DEL_REPO', // Nombre de tu repositorio
+   site: 'https://jromeroc99.github.io',
+   base: '/portfolio',
    ```
 
 2. **Habilita GitHub Pages en tu repositorio:**
