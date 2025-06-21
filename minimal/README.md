@@ -1,4 +1,60 @@
-# Astro Starter Kit: Basics
+# Portfolio - Javier Romero Caparrós
+
+Portfolio personal desarrollado con Astro.
+
+## 🚀 Despliegue en GitHub Pages
+
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages.
+
+### Configuración necesaria:
+
+1. **Actualiza la configuración en `astro.config.mjs`:**
+   ```javascript
+   site: 'https://TU_USERNAME.github.io', // Tu username de GitHub
+   base: '/NOMBRE_DEL_REPO', // Nombre de tu repositorio
+   ```
+
+2. **Habilita GitHub Pages en tu repositorio:**
+   - Ve a Settings > Pages
+   - Source: "GitHub Actions"
+   - Branch: `main`
+
+3. **Push al repositorio:**
+   ```bash
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
+   ```
+
+### Desarrollo local:
+
+```bash
+# Instalar dependencias
+npm install
+
+# Servidor de desarrollo
+npm run dev
+
+# Build para producción
+npm run build
+
+# Preview del build
+npm run preview
+```
+
+## 📁 Estructura del proyecto
+
+- `src/pages/` - Páginas de Astro
+- `src/components/` - Componentes reutilizables
+- `src/layouts/` - Layouts de página
+- `public/` - Assets estáticos
+- `dist/` - Build de producción (generado automáticamente)
+
+## 🎨 Tecnologías
+
+- **Astro** - Framework web
+- **CSS** - Estilos personalizados
+- **GitHub Actions** - CI/CD automático
 
 ```sh
 npm create astro@latest -- --template basics
